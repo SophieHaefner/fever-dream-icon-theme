@@ -1,0 +1,91 @@
+{
+	"iconDefinitions": {
+		// default
+		"_default_light": {
+		"iconPath": "./icons/file.svg"
+		},
+		"_default": {
+		"iconPath": "./icons/file.svg"
+		},
+		"_folder": {
+		"iconPath": "./icons/folder.svg"
+		},
+		"_folder_open": {
+			"iconPath": "./icons/folder.svg"
+		},
+		// ignored
+		/*
+		"_ignored_light": {
+		"fontCharacter": "\\E04A",
+		"fontColor": "#3b4b52"
+		},
+		"_ignored": {
+		"fontCharacter": "\\E04A",
+		"fontColor": "#41535b"
+		},
+		*/
+	},
+	"file": "_default",
+	"fileExtensions": {
+		"html": "_web",
+		"css": "_style",
+		"md": "_document",
+		"txt": "_document",
+		"json": "_config",
+		"toml": "_config",
+		"asm": "_assembly",
+		"wasm": "_assembly",
+		"license": "_license",
+		"gitignore": "_git",
+		"gitattributes": "_git"
+	},
+	"fileNames": {
+		// license
+		
+		"license": "_license",
+		"license.md": "_license",
+		"license.txt": "_license",
+		
+		"License": "_license",
+		"License.md": "_license",
+		"License.txt": "_license",
+		
+		"LICENSE": "_license",
+		"LICENSE.md": "_license",
+		"LICENSE.txt": "_license",
+		
+		// readme
+		
+		"readme": "_readme",
+		"readme.md": "_readme",
+		"readme.txt": "_readme",
+		
+		"Readme": "_readme",
+		"Readme.md": "_readme",
+		"Readme.txt": "_readme",
+		
+		"README": "_readme",
+		"README.md": "_readme",
+		"README.txt": "_readme",
+		
+		// todo
+		
+		"todo": "_todo",
+		"todo.md": "_todo",
+		"todo.txt": "_todo",
+		
+		"Todo": "_todo",
+		"Todo.md": "_todo",
+		"Todo.txt": "_todo",
+		
+		"TODO": "_todo",
+		"TODO.md": "_todo",
+		"TODO.txt": "_todo",
+		
+		// package
+		
+		"package.json": "_package",
+	},
+	"folder": "_folder",
+	"folderExpanded": "_folder_open",
+}

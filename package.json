@@ -1,0 +1,26 @@
+{
+  "name": "fever-dream-icon-theme",
+  "displayName": "fever-dream-icon-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "fever-dream",
+        "label": "fever dream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fever-dream-icon-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SophieHaefner/fever-dream-icon-theme"
+  }
+}
