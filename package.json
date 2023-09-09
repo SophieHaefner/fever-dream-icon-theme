@@ -22,5 +22,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/SophieHaefner/fever-dream-icon-theme"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.21.0"
   }
 }
