@@ -12,6 +12,12 @@
 		"_lock": {
 			"iconPath": "./icons/lock.svg"
 		},
+		"_package": {
+			"iconPath": "./icons/package.svg"
+		},
+		"_data": {
+			"iconPath": "./icons/data.svg"
+		},
 		"_config": {
 			"iconPath": "./icons/settings.svg"
 		},
@@ -62,10 +68,21 @@
 		"gitignore": "_git",
 		"gitattributes": "_git",
 		"lock": "_lock",
-		"json": "_config",
+		
+		// data
+		"json": "_data",
+		"csv": "_data",
+		
+		// config
 		"toml": "_config",
+		"config.json": "_config",
+		"system/ini": "_config",
+		
+		// tag
 		"html": "_tag",
 		"xml": "_tag",
+		
+		// style
 		"css": "_style",
 		"sass": "_style",
 		
@@ -157,9 +174,15 @@
 		"TODO.md": "_todo",
 		"TODO.txt": "_todo",
 		
+		// config
+		"config.json": "_config",
+		"tsconfig.json": "_config",
+		"webpack.js": "_config",
+		"webpack.config.js": "_config",
+		
 		// package
 		
-		"package.json": "_package",
+		"package.json": "_package"
 	},
 	"folder": "_folder",
 	"folderExpanded": "_folder_open",
