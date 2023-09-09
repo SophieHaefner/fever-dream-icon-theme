@@ -1,0 +1,166 @@
+{
+	"iconDefinitions": {
+		"_folder": {
+			"iconPath": "./icons/folder.svg"
+		},
+		"_folder_open": {
+			"iconPath": "./icons/folder.svg"
+		},
+		"_git": {
+			"iconPath": "./icons/sync.svg"
+		},
+		"_lock": {
+			"iconPath": "./icons/lock.svg"
+		},
+		"_config": {
+			"iconPath": "./icons/settings.svg"
+		},
+		"_tag": {
+			"iconPath": "./icons/tag.svg"
+		},
+		"_style": {
+			"iconPath": "./icons/style.svg"
+		},
+		"_code": {
+			"iconPath": "./icons/code.svg"
+		},
+		"_audio": {
+			"iconPath": "./icons/audio.svg"
+		},
+		"_image": {
+			"iconPath": "./icons/image.svg"
+		},
+		"_video": {
+			"iconPath": "./icons/video.svg"
+		},
+		"_model": {
+			"iconPath": "./icons/object.svg"
+		},
+		"_document": {
+			"iconPath": "./icons/notes.svg"
+		},
+		"_license": {
+			"iconPath": "./icons/license.svg"
+		},
+		"_readme": {
+			"iconPath": "./icons/documentation-2.svg"
+		},
+		"_todo": {
+			"iconPath": "./icons/checklist.svg"
+		},
+		"_default": {
+			"iconPath": "./icons/file.svg"
+		}
+	},
+	"file": "_default",
+	"fileExtensions": {
+		"md": "_document",
+		"txt": "_document",
+		"license": "_license",
+		"readme": "_readme",
+		"todo": "_todo",
+		"gitignore": "_git",
+		"gitattributes": "_git",
+		"lock": "_lock",
+		"json": "_config",
+		"toml": "_config",
+		"html": "_tag",
+		"xml": "_tag",
+		"css": "_style",
+		"sass": "_style",
+		
+		// code
+		"asm": "_code",
+		"wasm": "_code",
+		"c": "_code",
+		"h": "_code",
+		"cpp": "_code",
+		"hpp": "_code",
+		"py": "_code",
+		"java": "_code",
+		"js": "_code",
+		"ts": "_code",
+		"cs": "_code",
+		"rs": "_code",
+		
+		// audio
+		"mp3": "_audio",
+		"wav": "_audio",
+		"aac": "_audio",
+		"flac": "_audio",
+		"ogg": "_audio",
+		
+		// image
+		"png": "_image",
+		"jpg": "_image",
+		"jpeg": "_image",
+		"tiff": "_image",
+		"ico": "_image",
+		"svg": "_image",
+		"gif": "_image",
+		
+		// video
+		"mpeg": "_video",
+		"mp4": "_video",
+		"mov": "_video",
+		"avi": "_video",
+		"flv": "_video",
+		"wmv": "_video",
+		
+		// model
+		"obj": "_model",
+		"fbx": "_model",
+		"3ds": "_model",
+		"stl": "_model",
+		"gltf": "_model"
+	},
+	"fileNames": {
+		// license
+		
+		"license": "_license",
+		"license.md": "_license",
+		"license.txt": "_license",
+		
+		"License": "_license",
+		"License.md": "_license",
+		"License.txt": "_license",
+		
+		"LICENSE": "_license",
+		"LICENSE.md": "_license",
+		"LICENSE.txt": "_license",
+		
+		// readme
+		
+		"readme": "_readme",
+		"readme.md": "_readme",
+		"readme.txt": "_readme",
+		
+		"Readme": "_readme",
+		"Readme.md": "_readme",
+		"Readme.txt": "_readme",
+		
+		"README": "_readme",
+		"README.md": "_readme",
+		"README.txt": "_readme",
+		
+		// todo
+		
+		"todo": "_todo",
+		"todo.md": "_todo",
+		"todo.txt": "_todo",
+		
+		"Todo": "_todo",
+		"Todo.md": "_todo",
+		"Todo.txt": "_todo",
+		
+		"TODO": "_todo",
+		"TODO.md": "_todo",
+		"TODO.txt": "_todo",
+		
+		// package
+		
+		"package.json": "_package",
+	},
+	"folder": "_folder",
+	"folderExpanded": "_folder_open",
+}
