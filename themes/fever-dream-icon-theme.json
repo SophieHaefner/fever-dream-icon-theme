@@ -42,6 +42,9 @@
 		"_model": {
 			"iconPath": "./icons/object.svg"
 		},
+		"_material": {
+			"iconPath": "./icons/attributes.svg"
+		},
 		"_document": {
 			"iconPath": "./icons/notes.svg"
 		},
@@ -112,6 +115,7 @@
 		"jpg": "_image",
 		"jpeg": "_image",
 		"tiff": "_image",
+		"dds": "_image",
 		"ico": "_image",
 		"svg": "_image",
 		"gif": "_image",
@@ -129,7 +133,12 @@
 		"fbx": "_model",
 		"3ds": "_model",
 		"stl": "_model",
-		"gltf": "_model"
+		"gltf": "_model",
+		
+		// material
+		"mtl": "_material",
+		"mdl": "_material",
+		"sbsar": "_material"
 	},
 	"fileNames": {
 		// license
