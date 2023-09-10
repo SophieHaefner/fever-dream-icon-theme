@@ -6,14 +6,29 @@
 		"_folder_open": {
 			"iconPath": "./icons/folder.svg"
 		},
-		"_git": {
+		"_folder_generated": {
+			"iconPath": "./icons/folder-generated.svg"
+		},
+		"_folder_settings": {
+			"iconPath": "./icons/folder-settings.svg"
+		},
+		"_folder_sync": {
+			"iconPath": "./icons/folder-sync.svg"
+		},
+		"_sync": {
 			"iconPath": "./icons/sync.svg"
+		},
+		"_workflow": {
+			"iconPath": "./icons/connection.svg"
 		},
 		"_lock": {
 			"iconPath": "./icons/lock.svg"
 		},
 		"_package": {
 			"iconPath": "./icons/package.svg"
+		},
+		"_launch": {
+			"iconPath": "./icons/rocket.svg"
 		},
 		"_data": {
 			"iconPath": "./icons/data.svg"
@@ -68,8 +83,9 @@
 		"license": "_license",
 		"readme": "_readme",
 		"todo": "_todo",
-		"gitignore": "_git",
-		"gitattributes": "_git",
+		"gitignore": "_sync",
+		"gitattributes": "_sync",
+		"workflows/yml": "_workflow",
 		"lock": "_lock",
 		
 		// data
@@ -79,7 +95,9 @@
 		// config
 		"toml": "_config",
 		"config.json": "_config",
-		"system/ini": "_config",
+		"yml": "_config",
+		"yaml": "_config",
+		"ini": "_config",
 		
 		// tag
 		"html": "_tag",
@@ -184,6 +202,7 @@
 		"TODO.txt": "_todo",
 		
 		// config
+		
 		"config.json": "_config",
 		"tsconfig.json": "_config",
 		"webpack.js": "_config",
@@ -191,8 +210,27 @@
 		
 		// package
 		
-		"package.json": "_package"
+		"package.json": "_package",
+		
+		// launch
+		
+		"launch.json": "_launch"
 	},
 	"folder": "_folder",
-	"folderExpanded": "_folder_open",
+	// "folderExpanded": "_folder_open",
+	"folderNames": {
+		".bin": "_folder_generated",
+		"bin": "_folder_generated",
+		"target": "_folder_generated",
+		"debug": "_folder_generated",
+		"release": "_folder_generated",
+		"output": "_folder_generated",
+		"node_modules": "_folder_generated", // _package
+		".git": "_folder_sync", // _sync
+		".github": "_folder_sync", // _sync
+		"workflows": "_workflow",
+		".vscode": "_folder_settings",
+		"config": "_folder_settings",
+		".cargo": "_folder_settings"
+	}
 }
